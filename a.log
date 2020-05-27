@@ -1,0 +1,13 @@
+测试次数：串口详情参数： Serial<id=0x178f9cea970, open=True>(port='COM5', baudrate=115200, bytesize=8, parity='N', stopbits=1, timeout=5, xonxoff=False, rtscts=False, dsrdtr=False)
+COM5
+115200
+写总字节数: 133
+发送数据： AT+CONNECT -wn "Tenda" -pt "WPA/WPA2" -pw "123456789" -im "0" -li "192.168.0.144" -sl "255.255.255.0" -gl "192.168.0.1" -si "" -sp ""
+收到数据： AT+CONNECT -wn "Tenda" -pt "WPA/WPA2" -pw "123456789" -im "0" -li "192.168.0.144" -sl "255.255.255.0" -gl "192.168.0.1" -si "" -sp ""AT+ERROR=6
+
+unit -- test 第 1 次用例测试失败
+---------------
+总测试次数： 1 
+成功次数 0 
+失败次数 1
+总测试时间： 0:00:02.010774

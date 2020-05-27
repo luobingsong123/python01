@@ -1,0 +1,36 @@
+<HTML>
+
+
+
+<HEAD>
+
+
+
+<TITLE>mapi.MAPILogonEx</TITLE>
+
+
+
+<META NAME="GENERATOR" CONTENT="Autoduck, by erica@microsoft.com">
+
+
+
+<H1><A HREF="mapi.html">mapi</A>.MAPILogonEx</H1><P>
+
+<A HREF="PyIMAPISession.html">PyIMAPISession</A> = <B>MAPILogonEx(<I>hWnd</I><I>, profileName</I>
+
+<I>, password</I>
+
+<I>, uiFlags</I>
+
+</B>)<P><P>
+
+<H3>Parameters</H3><P><DT><I>hWnd</I> : int<P>
+
+<DD>Handle to the window to which the logon dialog box is modal. If no dialog box is displayed during the call, the hWnd parameter is ignored. This parameter can be zero.<P><DT><I>profileName</I> : <A HREF="PyUnicode.html">PyUnicode</A><P>
+
+<DD>A string containing the name of the profile to use when logging on. This string is limited to 64 characters.<P><DT><I>password</I> : <A HREF="PyUnicode.html">PyUnicode</A><P>
+
+<DD>A string containing the password of the profile. This parameter can be None whether or not the profileName parameter is None. This string is limited to 64 characters.<P><DT><I>uiFlags</I> : int<P>
+
+<DD>Bitmask of flags used to control how logon is performed.  See the MAPI documentation for details.<P></body>
+</html>
